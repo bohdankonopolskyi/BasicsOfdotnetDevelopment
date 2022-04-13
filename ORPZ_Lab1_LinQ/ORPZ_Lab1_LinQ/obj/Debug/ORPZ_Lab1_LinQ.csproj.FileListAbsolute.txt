@@ -1,0 +1,6 @@
+/Users/bohdankonopolskyi/Projects/ORPZ_Lab1_LinQ/ORPZ_Lab1_LinQ/bin/Debug/ORPZ_Lab1_LinQ.exe
+/Users/bohdankonopolskyi/Projects/ORPZ_Lab1_LinQ/ORPZ_Lab1_LinQ/bin/Debug/ORPZ_Lab1_LinQ.pdb
+/Users/bohdankonopolskyi/Projects/ORPZ_Lab1_LinQ/ORPZ_Lab1_LinQ/obj/Debug/ORPZ_Lab1_LinQ.csproj.AssemblyReference.cache
+/Users/bohdankonopolskyi/Projects/ORPZ_Lab1_LinQ/ORPZ_Lab1_LinQ/obj/Debug/ORPZ_Lab1_LinQ.csproj.CoreCompileInputs.cache
+/Users/bohdankonopolskyi/Projects/ORPZ_Lab1_LinQ/ORPZ_Lab1_LinQ/obj/Debug/ORPZ_Lab1_LinQ.exe
+/Users/bohdankonopolskyi/Projects/ORPZ_Lab1_LinQ/ORPZ_Lab1_LinQ/obj/Debug/ORPZ_Lab1_LinQ.pdb

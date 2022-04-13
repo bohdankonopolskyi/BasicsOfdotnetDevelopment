@@ -1,0 +1,29 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{ED1E984D-8E85-4CFD-A5D6-0F492CD04EE4}|Default">
+  <MonoDevelop.Ide.ItemProperties.ORPZ__Lab1__LinQ PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ORPZ_Lab1_LinQ/Program.cs">
+    <Files>
+      <File FileName="ORPZ_Lab1_LinQ/Program.cs" Line="246" Column="37" />
+      <File FileName="ORPZ_Lab1_LinQ/CarBodyType.cs" />
+      <File FileName="ORPZ_Lab1_LinQ/CarBodyColor.cs" />
+      <File FileName="ORPZ_Lab1_LinQ/Auto.cs" />
+      <File FileName="ORPZ_Lab1_LinQ/Person.cs" />
+      <File FileName="ORPZ_Lab1_LinQ/Address.cs" />
+      <File FileName="ORPZ_Lab1_LinQ/TechnicalCondition.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ORPZ_Lab1_LinQ" expanded="True">
+            <Node name="ORPZ_Lab1_LinQ" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
