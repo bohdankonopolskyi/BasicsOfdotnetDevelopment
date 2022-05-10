@@ -2,19 +2,18 @@
   <MonoDevelop.Ide.ItemProperties.ORPZ__Lab1__LinQ PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="ORPZ_Lab1_LinQ/Program.cs">
     <Files>
-      <File FileName="ORPZ_Lab1_LinQ/Program.cs" Line="246" Column="37" />
-      <File FileName="ORPZ_Lab1_LinQ/CarBodyType.cs" />
-      <File FileName="ORPZ_Lab1_LinQ/CarBodyColor.cs" />
-      <File FileName="ORPZ_Lab1_LinQ/Auto.cs" />
-      <File FileName="ORPZ_Lab1_LinQ/Person.cs" />
-      <File FileName="ORPZ_Lab1_LinQ/Address.cs" />
-      <File FileName="ORPZ_Lab1_LinQ/TechnicalCondition.cs" />
+      <File FileName="ORPZ_Lab1_LinQ/Program.cs" Line="138" Column="33" />
+      <File FileName="ORPZ_Lab1_LinQ/Auto.cs" Line="1" Column="1" />
+      <File FileName="ORPZ_Lab1_LinQ/Person.cs" Line="1" Column="1" />
+      <File FileName="ORPZ_Lab1_LinQ/Address.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ORPZ_Lab1_LinQ" expanded="True">
-            <Node name="ORPZ_Lab1_LinQ" expanded="True" />
+            <Node name="ORPZ_Lab1_LinQ" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>

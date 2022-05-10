@@ -88,7 +88,7 @@ namespace ORPZ_Lab1_LinQ
         public static void Main(string[] args)
         {
             //Проста вибірка, отрмати колекцію Автомобілі
-            getAllAutos(autos);
+            getAllAutos();
 
 
             //Фільтрація. Отримати колекцію автомобілів випущених після 2019 року.
@@ -135,7 +135,7 @@ namespace ORPZ_Lab1_LinQ
 
         }
 
-        static void getAllAutos(IEnumerable<Auto> autos)
+        static void getAllAutos()
         {
             Console.WriteLine("Проста вибірка. Отримати всі елементи колекції");
             var q1 = from auto in autos
