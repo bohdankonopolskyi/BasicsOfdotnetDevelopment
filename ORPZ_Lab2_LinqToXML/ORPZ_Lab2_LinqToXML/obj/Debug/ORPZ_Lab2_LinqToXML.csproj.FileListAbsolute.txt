@@ -1,0 +1,8 @@
+/Users/bohdankonopolskyi/projrepos/ORPZ_Lab2_LinqToXML/ORPZ_Lab2_LinqToXML/bin/Debug/ORPZ_Lab2_LinqToXML.exe
+/Users/bohdankonopolskyi/projrepos/ORPZ_Lab2_LinqToXML/ORPZ_Lab2_LinqToXML/bin/Debug/ORPZ_Lab2_LinqToXML.pdb
+/Users/bohdankonopolskyi/projrepos/ORPZ_Lab2_LinqToXML/ORPZ_Lab2_LinqToXML/bin/Debug/System.Xml.ReaderWriter.dll
+/Users/bohdankonopolskyi/projrepos/ORPZ_Lab2_LinqToXML/ORPZ_Lab2_LinqToXML/obj/Debug/ORPZ_Lab2_LinqToXML.csproj.AssemblyReference.cache
+/Users/bohdankonopolskyi/projrepos/ORPZ_Lab2_LinqToXML/ORPZ_Lab2_LinqToXML/obj/Debug/ORPZ_Lab2_LinqToXML.csproj.CoreCompileInputs.cache
+/Users/bohdankonopolskyi/projrepos/ORPZ_Lab2_LinqToXML/ORPZ_Lab2_LinqToXML/obj/Debug/ORPZ_Lab2_LinqToXML.csproj.CopyComplete
+/Users/bohdankonopolskyi/projrepos/ORPZ_Lab2_LinqToXML/ORPZ_Lab2_LinqToXML/obj/Debug/ORPZ_Lab2_LinqToXML.exe
+/Users/bohdankonopolskyi/projrepos/ORPZ_Lab2_LinqToXML/ORPZ_Lab2_LinqToXML/obj/Debug/ORPZ_Lab2_LinqToXML.pdb

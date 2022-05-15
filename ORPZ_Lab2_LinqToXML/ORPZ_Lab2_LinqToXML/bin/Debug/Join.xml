@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AutosJoinOwners>
+  <Auto>
+    <auto>
+      <manufacturer>Audi</manufacturer>
+      <model>RS Q8</model>
+      <bodyColor>Green</bodyColor>
+      <bodyType>SUV</bodyType>
+      <manufactureYear>2020</manufactureYear>
+      <condition>Good</condition>
+      <plateNumber>KA7777HH</plateNumber>
+      <VIN>VAG873829gdhj</VIN>
+      <owners>
+        <owner>KX874636</owner>
+        <owner>KX653276</owner>
+      </owners>
+    </auto>
+    <person>
+      <surname>Kaschuk</surname>
+      <name>Pavlo</name>
+      <patronymic>Oleksandrovych</patronymic>
+      <birthDay>05.12.1995</birthDay>
+      <licenceNumber>KX874636</licenceNumber>
+      <region>Kyiv</region>
+    </person>
+  </Auto>
+  <Auto>
+    <auto>
+      <manufacturer>Mercedes</manufacturer>
+      <model>E63 S AMG</model>
+      <bodyColor>White</bodyColor>
+      <bodyType>Sedan</bodyType>
+      <manufactureYear>2018</manufactureYear>
+      <condition>Good</condition>
+      <plateNumber>KA2222AA</plateNumber>
+      <VIN>DML827438927984EEE</VIN>
+      <owners>
+        <owner>KX874636</owner>
+        <owner>KX653276</owner>
+      </owners>
+    </auto>
+    <person>
+      <surname>Kaschuk</surname>
+      <name>Pavlo</name>
+      <patronymic>Oleksandrovych</patronymic>
+      <birthDay>05.12.1995</birthDay>
+      <licenceNumber>KX874636</licenceNumber>
+      <region>Kyiv</region>
+    </person>
+  </Auto>
+</AutosJoinOwners>

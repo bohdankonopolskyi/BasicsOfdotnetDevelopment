@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GroupedAutos>
+  <Group BodyType="Coupe">
+    <manufacturer>Porsche</manufacturer>
+    <model>911 Turbo S</model>
+    <bodyColor>Yellow</bodyColor>
+    <bodyType>Coupe</bodyType>
+    <manufactureYear>2021</manufactureYear>
+    <condition>Good</condition>
+    <plateNumber>HH0911HH</plateNumber>
+    <VIN>PVAG9387738HFK</VIN>
+    <owners>
+      <owner>OC9894357</owner>
+      <owner>MO62500E</owner>
+    </owners>
+    <CarJacked>true</CarJacked>
+    <manufacturer>Ford</manufacturer>
+    <model>Mustang</model>
+    <bodyColor>Blue</bodyColor>
+    <bodyType>Coupe</bodyType>
+    <manufactureYear>2020</manufactureYear>
+    <condition>Totaled</condition>
+    <plateNumber />
+    <VIN>FCA84747874USK</VIN>
+    <owners />
+    <CarJacked>false</CarJacked>
+    <manufacturer>Mercedes</manufacturer>
+    <model>C43 AMG</model>
+    <bodyColor>Green</bodyColor>
+    <bodyType>Coupe</bodyType>
+    <manufactureYear>2018</manufactureYear>
+    <condition>Good</condition>
+    <plateNumber>BH0043CC</plateNumber>
+    <VIN>DML827438927984HRE</VIN>
+    <owners>
+      <owner>MO62500E</owner>
+    </owners>
+    <CarJacked>false</CarJacked>
+    <manufacturer>Porsche</manufacturer>
+    <model>Panamera GTS</model>
+    <bodyColor>Green</bodyColor>
+    <bodyType>Coupe</bodyType>
+    <manufactureYear>2020</manufactureYear>
+    <condition>Good</condition>
+    <plateNumber>AT8008KK</plateNumber>
+    <VIN>PVAG680GT8338378</VIN>
+    <owners>
+      <owner>IB9896343</owner>
+      <owner>HH6352410</owner>
+    </owners>
+    <CarJacked>false</CarJacked>
+  </Group>
+  <Group BodyType="SUV">
+    <manufacturer>Audi</manufacturer>
+    <model>RS Q8</model>
+    <bodyColor>Green</bodyColor>
+    <bodyType>SUV</bodyType>
+    <manufactureYear>2020</manufactureYear>
+    <condition>Good</condition>
+    <plateNumber>KA7777HH</plateNumber>
+    <VIN>VAG873829gdhj</VIN>
+    <owners>
+      <owner>KX874636</owner>
+      <owner>KX653276</owner>
+    </owners>
+    <CarJacked>false</CarJacked>
+    <manufacturer>BMW</manufacturer>
+    <model>X5 M</model>
+    <bodyColor>Red</bodyColor>
+    <bodyType>SUV</bodyType>
+    <manufactureYear>2021</manufactureYear>
+    <condition>Repair</condition>
+    <plateNumber>AH8000CK</plateNumber>
+    <VIN>BMWAG03883773JDH</VIN>
+    <owners>
+      <owner>PH0388499</owner>
+    </owners>
+    <CarJacked>false</CarJacked>
+    <manufacturer>Porsche</manufacturer>
+    <model>Cayenne Turbo GT</model>
+    <bodyColor>Red</bodyColor>
+    <bodyType>SUV</bodyType>
+    <manufactureYear>2022</manufactureYear>
+    <condition>Good</condition>
+    <plateNumber />
+    <VIN>PVAG680GT8338378</VIN>
+    <owners />
+    <CarJacked>false</CarJacked>
+  </Group>
+  <Group BodyType="Sedan">
+    <manufacturer>Mercedes</manufacturer>
+    <model>E63 S AMG</model>
+    <bodyColor>Black</bodyColor>
+    <bodyType>Sedan</bodyType>
+    <manufactureYear>2018</manufactureYear>
+    <condition>Good</condition>
+    <plateNumber>KA0063AA</plateNumber>
+    <VIN>DML827438927984hdj</VIN>
+    <owners>
+      <owner>BK444476</owner>
+    </owners>
+    <CarJacked>false</CarJacked>
+    <manufacturer>Mercedes</manufacturer>
+    <model>E63 S AMG</model>
+    <bodyColor>White</bodyColor>
+    <bodyType>Sedan</bodyType>
+    <manufactureYear>2018</manufactureYear>
+    <condition>Good</condition>
+    <plateNumber>KA2222AA</plateNumber>
+    <VIN>DML827438927984EEE</VIN>
+    <owners>
+      <owner>KX874636</owner>
+      <owner>KX653276</owner>
+    </owners>
+    <CarJacked>false</CarJacked>
+    <manufacturer>Mercedes</manufacturer>
+    <model>S400d</model>
+    <bodyColor>White</bodyColor>
+    <bodyType>Sedan</bodyType>
+    <manufactureYear>2018</manufactureYear>
+    <condition>Good</condition>
+    <plateNumber>AO2222AA</plateNumber>
+    <VIN>DML400438927984SSS</VIN>
+    <owners>
+      <owner>CX009111</owner>
+    </owners>
+    <CarJacked>false</CarJacked>
+    <manufacturer>Audi</manufacturer>
+    <model>A8 Long</model>
+    <bodyColor>Green</bodyColor>
+    <bodyType>Sedan</bodyType>
+    <manufactureYear>2022</manufactureYear>
+    <condition>Good</condition>
+    <plateNumber>AT2226HI</plateNumber>
+    <VIN>VAG400438927965LL</VIN>
+    <owners>
+      <owner>IB9896343</owner>
+    </owners>
+    <CarJacked>false</CarJacked>
+  </Group>
+  <Group BodyType="Wagon">
+    <manufacturer>Audi</manufacturer>
+    <model>RS 6 Avant</model>
+    <bodyColor>Blue</bodyColor>
+    <bodyType>Wagon</bodyType>
+    <manufactureYear>2021</manufactureYear>
+    <condition>Good</condition>
+    <plateNumber />
+    <VIN>VAG0997366678990RS</VIN>
+    <owners />
+    <CarJacked>false</CarJacked>
+  </Group>
+</GroupedAutos>

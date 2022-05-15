@@ -1,0 +1,26 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{720BE352-FF6D-4FA1-BE4C-DE2E305D9B34}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="ORPZ_Lab2_LinqToXML/Program.cs" Line="115" Column="13" />
+      <File FileName="ORPZ_Lab2_LinqToXML/Auto.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ORPZ_Lab2_LinqToXML" expanded="True">
+            <Node name="ORPZ_Lab2_LinqToXML" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ORPZ__Lab2__LinqToXML PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
