@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GroupedAutos>
+  <Group BodyType="Coupe">
+  <auto>
+    <manufacturer>Porsche</manufacturer>
+    <model>911 Turbo S</model>
+    <bodyColor>Yellow</bodyColor>
+    <bodyType>Coupe</bodyType>
+    <manufactureYear>2021</manufactureYear>
+    <condition>Good</condition>
+    <plateNumber>HH0911HH</plateNumber>
+    <VIN>PVAG9387738HFK</VIN>
+    <owners>
+      <owner>OC9894357</owner>
+      <owner>MO62500E</owner>
+    </owners>
+    </auto>
+  </Group>
+  <Group BodyType="SUV">
+  <auto>
+    <manufacturer>Audi</manufacturer>
+    <model>RS Q8</model>
+    <bodyColor>Green</bodyColor>
+    <bodyType>SUV</bodyType>
+    <manufactureYear>2020</manufactureYear>
+    <condition>Good</condition>
+    <plateNumber>KA7777HH</plateNumber>
+    <VIN>VAG873829gdhj</VIN>
+    <owners>
+      <owner>KX874636</owner>
+      <owner>KX653276</owner>
+    </owners>
+    <CarJacked>false</CarJacked>
+   </auto>
+  </Group>
+  <Group BodyType="Wagon">
+  <auto>
+    <manufacturer>Audi</manufacturer>
+    <model>RS 6 Avant</model>
+    <bodyColor>Blue</bodyColor>
+    <bodyType>Wagon</bodyType>
+    <manufactureYear>2021</manufactureYear>
+    <condition>Good</condition>
+    <plateNumber />
+    <VIN>VAG0997366678990RS</VIN>
+    <owners />
+    <CarJacked>false</CarJacked>
+  </auto>
+  </Group>
+</GroupedAutos>

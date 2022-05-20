@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <AutosJoinOwners>
   <Auto>
     <auto>
@@ -10,19 +10,15 @@
       <condition>Good</condition>
       <plateNumber>KA7777HH</plateNumber>
       <VIN>VAG873829gdhj</VIN>
-      <owners>
-        <owner>KX874636</owner>
-        <owner>KX653276</owner>
-      </owners>
     </auto>
-    <person>
+    <owner>
       <surname>Kaschuk</surname>
       <name>Pavlo</name>
       <patronymic>Oleksandrovych</patronymic>
       <birthDay>05.12.1995</birthDay>
       <licenceNumber>KX874636</licenceNumber>
       <region>Kyiv</region>
-    </person>
+    </owner>
   </Auto>
   <Auto>
     <auto>
@@ -34,18 +30,14 @@
       <condition>Good</condition>
       <plateNumber>KA2222AA</plateNumber>
       <VIN>DML827438927984EEE</VIN>
-      <owners>
-        <owner>KX874636</owner>
-        <owner>KX653276</owner>
-      </owners>
     </auto>
-    <person>
-      <surname>Kaschuk</surname>
-      <name>Pavlo</name>
-      <patronymic>Oleksandrovych</patronymic>
-      <birthDay>05.12.1995</birthDay>
-      <licenceNumber>KX874636</licenceNumber>
-      <region>Kyiv</region>
-    </person>
+    <owner>
+      <surname>Kozakov</surname>
+    <name>Dmytro</name>
+    <patronymic>Pavlovych</patronymic>
+    <birthDay>19.10.1991</birthDay>
+    <licenceNumber>CX009111</licenceNumber>
+    <region>Ivano-Frankivsk</region>
+    </owner>
   </Auto>
 </AutosJoinOwners>

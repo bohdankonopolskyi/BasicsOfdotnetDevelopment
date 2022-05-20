@@ -90,28 +90,30 @@ namespace ORPZ_Lab2_LinqToXML
         public static void Main(string[] args)
         {
             //CreateCarXml("autos");
+            XDocument xdoc = XDocument.Load("autos.xml");
 
             //CreatePersonXml("people");
-            XDocument xdoc = XDocument.Load("autos.xml");
-            //IEnumerable<Auto> selectedCars = SelectCars(xdoc);
-
             XDocument xdoc2 = XDocument.Load("people.xml");
+
+            //IEnumerable<Auto> selectedCars = SelectCars(xdoc);
             //IEnumerable<Person> selectedPeople = SelectPeople(xdoc2);
-
-
 
             //GetFilteredOrderedCars2(xdoc);
 
             //DeleteSomeCars(xdoc, "2020");
-            //var query = xdoc2.Descendants("people").Where(z => z.Element(nameof(Person.LicenceNumber)).Value.Equals(".."));
 
             //JoinCarsWithOwners(xdoc, xdoc2);
+
             //AddNewElement(xdoc, "CarJacked");
-            UpdateCars(xdoc, "PVAG9387738HFK");
+
+            //UpdateCars(xdoc, "PVAG9387738HFK");
+
             //GetGroupedByBodyTypeCars(xdoc);
+
             XDocument gDoc = XDocument.Load("groupedCars.xml");
-            OrderGroups(gDoc.Root);
-            gDoc.Save("groupedCars1.xml");
+
+           // OrderGroups(gDoc.Root);
+           // gDoc.Save("groupedCars1.xml");
             
         }
 
@@ -172,7 +174,7 @@ namespace ORPZ_Lab2_LinqToXML
             }
         }
 
-        // 1
+        // 1 Отримати вміст вхідного файлу Autos
         public static IEnumerable<Auto> SelectCars(XDocument document)
         {
 
@@ -191,7 +193,7 @@ namespace ORPZ_Lab2_LinqToXML
             return query;
         }
 
-        //2
+        //2 Отримати вміст вхідного файлу People
         public static IEnumerable<Person> SelectPeople(XDocument document)
         {
             var query = document.Descendants("person")
@@ -209,7 +211,7 @@ namespace ORPZ_Lab2_LinqToXML
             return query;
         }
 
-        //3
+        //3 Отримати відсортовані записи Auto за фільтром
         public static IEnumerable<Auto> GetFilteredOrderedCars(XDocument document, string manufacturer)
         {
 
@@ -232,7 +234,7 @@ namespace ORPZ_Lab2_LinqToXML
             return query;
         }
 
-        //4
+        //4 Створити новий файл із згрупованими автомобілями за типом кузова
         public static void GetGroupedByBodyTypeCars(XDocument document)
         {
             XDocument query = new XDocument(new XElement("GroupedAutos",
@@ -245,7 +247,7 @@ namespace ORPZ_Lab2_LinqToXML
         }
 
 
-        //5
+        //5 Створити новий файл Auto Join with Owner
         public static void JoinCarsWithOwners(XDocument AutosDoc, XDocument PeopleDoc)
         {
             var query =
@@ -263,7 +265,7 @@ namespace ORPZ_Lab2_LinqToXML
             xDocument.Save("Join.xml");
 
         }
-        //6
+        //6 Модифікувати файл, додати новий елемент
         public static void AddNewElement(XDocument xDocument, string fieldName)
         {
             foreach (var rec in xDocument.Descendants("auto"))
@@ -273,7 +275,7 @@ namespace ORPZ_Lab2_LinqToXML
             xDocument.Save("autos.xml");
         }
 
-        //7
+        //7 Оновлення даних поля за фільтром
         public static void UpdateCars(XDocument xDocument, string filter)
         {
            var query =  xDocument.Descendants("auto")?.Where(x => x.Element(nameof(Auto.VIN)).Value.Equals(filter)).FirstOrDefault();
@@ -281,7 +283,7 @@ namespace ORPZ_Lab2_LinqToXML
             query.Element("CarJacked").Value = "true";
             xDocument.Save("autos.xml");
         }
-        //8
+        //8 Видалення записів із файлу за фільтром
         public static void DeleteCarsByYear(XDocument document, string year)
         {
             document.Elements("auto").Elements()
@@ -290,7 +292,7 @@ namespace ORPZ_Lab2_LinqToXML
             document.Save(fileName: "autos.xml");
         }
 
-        //9
+        //9 Модифікація файлу, сортування за групою
         public static void OrderGroups(XElement node)
         { 
 
