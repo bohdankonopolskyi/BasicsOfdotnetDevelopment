@@ -1,10 +1,15 @@
 ﻿using System;
 namespace ORPZ_Lab3_CreationalPatterns
 {
-    public class SHA256EncryptorCreator
+    public class PBFDK2EncryptorCreator : EncryptorCreator
     {
-        public SHA256EncryptorCreator()
+        public PBFDK2EncryptorCreator()
         {
+        }
+
+        public override IEncryptor FactoryMethod()
+        {
+            return new PBFDK2Encryptor();
         }
     }
 }
