@@ -38,7 +38,9 @@
     <Compile Include="EncryptorCreator.cs" />
     <Compile Include="AesEncryptorCreator.cs" />
     <Compile Include="DesEncryptorCreator.cs" />
-    <Compile Include="Client.cs" />
+    <Compile Include="PBFDK2Encryptor.cs" />
+    <Compile Include="PBFDK2EncryptorCreator.cs" />
+    <Compile Include="GenericEncryptorFactory.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

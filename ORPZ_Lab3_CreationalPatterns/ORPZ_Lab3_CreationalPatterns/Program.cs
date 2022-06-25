@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Text;
+using System.Collections.Generic;
 
 namespace ORPZ_Lab3_CreationalPatterns
 {
@@ -7,19 +7,49 @@ namespace ORPZ_Lab3_CreationalPatterns
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string teststring = "Hello world!";
+            List<EncryptorCreator> creators = new List<EncryptorCreator>();
 
-            EncryptorCreator creator = new AesEncryptorCreator();
-            IEncryptor encryptor = creator.FactoryMethod();
-            string test = "test";
-            string encrypted = encryptor.Encrypt(test);
-            
-            Console.WriteLine(encrypted);
+            creators.Add(new PBFDK2EncryptorCreator());
+            creators.Add(new AesEncryptorCreator());
+            creators.Add(new DesEncryptorCreator());
 
-            //string decrypthed = encryptor.Decrypt(encrypted);
-            foreach(var el in Encoding.UTF8.GetBytes("test"))
-            Console.WriteLine(el.ToString());
+            Console.WriteLine("Non-Generic Factory");
+            foreach (var creator in creators)
+                Client(creator, teststring);
+
+
+            //Console.WriteLine("\n\n\n Generic factory");
+            //IEncryptor Encryptor = GenericEncryptorFactory<IEncryptor, AesEncryptor>.Create();
+
+            //Client(Encryptor, teststring);
+
+            //Encryptor = GenericEncryptorFactory<IEncryptor, DesEncryptor>.Create();
+            //Client(Encryptor, teststring);
 
         }
+
+        public static void Client(EncryptorCreator creator, string text)
+        {
+            IEncryptor encryptor;
+            encryptor = creator.FactoryMethod();
+
+            Console.WriteLine($"Encryption algorithm: {encryptor.GetType()}");
+            string encrypted = encryptor.Encrypt(text);
+            Console.WriteLine($"Encryption {encrypted}");
+
+            string decrypthed = encryptor.Decrypt(encrypted);
+            Console.WriteLine($"Decrypted  {decrypthed}\n");
+
+        }
+
+        //public static void Client(IEncryptor encryptor, string text)
+        //{
+        //    string encrypted = encryptor.Encrypt(text);
+        //    Console.WriteLine($"Encryption {encrypted}");
+
+        //    string decrypthed = encryptor.Decrypt(encrypted);
+        //    Console.WriteLine($"Decrypted  {decrypthed}\n");
+        //}
     }
 }

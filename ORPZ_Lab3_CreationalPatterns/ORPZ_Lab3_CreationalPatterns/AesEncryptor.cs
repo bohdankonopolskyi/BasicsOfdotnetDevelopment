@@ -1,5 +1,4 @@
 ﻿using System;
-using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 
@@ -8,100 +7,103 @@ namespace ORPZ_Lab3_CreationalPatterns
     public class AesEncryptor : IEncryptor
     {
         private byte[] Key;
-        private byte[] IV;
-
-        public AesEncryptor()
-        {
-            using (Aes aes = Aes.Create())
-            {
-                Key = aes.Key;
-                IV = aes.IV;
-            }
-        }
 
         public string Encrypt(string plainText)
         {
-            // Check arguments.
-            if (plainText == null || plainText.Length <= 0)
-                throw new ArgumentNullException("plainText");
-            if (Key == null || Key.Length <= 0)
-                throw new ArgumentNullException("Key");
-            if (IV == null || IV.Length <= 0)
-                throw new ArgumentNullException("IV");
-            string encrypted;
-
-            // Create an Aes object
-            // with the specified key and IV.
-            using (Aes aesAlg = Aes.Create())
+            using (Aes aes = Aes.Create())
             {
-                aesAlg.Key = Key;
-                aesAlg.IV = IV;
+                this.Key = aes.Key;
 
-                // Create an encryptor to perform the stream transform.
-                ICryptoTransform encryptor = aesAlg.CreateEncryptor(aesAlg.Key, aesAlg.IV);
+            }
+            RijndaelManaged objrij = new RijndaelManaged();
 
-                // Create the streams used for encryption.
-                using (MemoryStream msEncrypt = new MemoryStream())
-                {
-                    using (CryptoStream csEncrypt = new CryptoStream(msEncrypt, encryptor, CryptoStreamMode.Write))
-                    {
-                        using (StreamWriter swEncrypt = new StreamWriter(csEncrypt))
-                        {
-                            //Write all data to the stream.
-                            swEncrypt.Write(plainText);
-                        }
-                        foreach (var el in msEncrypt.ToArray())
-                            Console.WriteLine(el);
-                        encrypted = Convert.ToBase64String(msEncrypt.ToArray());
-                    }
-                }
+            //set the mode for operation of the algorithm
+
+            objrij.Mode = CipherMode.CBC;
+
+            //set the padding mode used in the algorithm.
+
+            objrij.Padding = PaddingMode.PKCS7;
+
+            //set the size, in bits, for the secret key.
+
+            objrij.KeySize = 0x80;
+
+            //set the block size in bits for the cryptographic operation.
+
+            objrij.BlockSize = 0x80;
+
+            //set the symmetric key that is used for encryption & decryption.
+
+            // byte[] passBytes = Encoding.UTF8.GetBytes(Encryptionkey);
+
+            //set the initialization vector (IV) for the symmetric algorithm
+
+            byte[] EncryptionkeyBytes = new byte[] { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
+
+            int len = Key.Length;
+
+            if (len > EncryptionkeyBytes.Length)
+            {
+
+                len = EncryptionkeyBytes.Length;
+
             }
 
-            // Return the encrypted bytes from the memory stream.
-            return encrypted;
+            Array.Copy(Key, EncryptionkeyBytes, len);
+
+            objrij.Key = EncryptionkeyBytes;
+
+            objrij.IV = EncryptionkeyBytes;
+
+            //Creates symmetric AES object with the current key and initialization vector IV.
+
+            ICryptoTransform objtransform = objrij.CreateEncryptor();
+
+            byte[] textDataByte = Encoding.UTF8.GetBytes(plainText);
+
+            //Final transform the test string.
+
+            return Convert.ToBase64String(objtransform.TransformFinalBlock(textDataByte, 0, textDataByte.Length));
         }
 
         public string Decrypt(string cipherText)
         {
-            // Check arguments.
-            if (cipherText == null || cipherText.Length <= 0)
-                throw new ArgumentNullException("cipherText");
-            if (Key == null || Key.Length <= 0)
-                throw new ArgumentNullException("Key");
-            if (IV == null || IV.Length <= 0)
-                throw new ArgumentNullException("IV");
-            byte[] cipher = Encoding.UTF8.GetBytes(cipherText);
-            // Declare the string used to hold
-            // the decrypted text.
-            string plaintext = null;
+            RijndaelManaged objrij = new RijndaelManaged();
 
-            // Create an Aes object
-            // with the specified key and IV.
-            using (Aes aesAlg = Aes.Create())
+            objrij.Mode = CipherMode.CBC;
+
+            objrij.Padding = PaddingMode.PKCS7;
+
+            objrij.KeySize = 0x80;
+
+            objrij.BlockSize = 0x80;
+
+            byte[] encryptedTextByte = Convert.FromBase64String(cipherText);
+
+            //byte[] passBytes = Encoding.UTF8.GetBytes(Encryptionkey);
+
+            byte[] EncryptionkeyBytes = new byte[0x10];
+
+            int len = Key.Length;
+
+            if (len > EncryptionkeyBytes.Length)
+
             {
-                aesAlg.Key = Key;
-                aesAlg.IV = IV;
 
-                // Create a decryptor to perform the stream transform.
-                ICryptoTransform decryptor = aesAlg.CreateDecryptor(aesAlg.Key, aesAlg.IV);
+                len = EncryptionkeyBytes.Length;
 
-                // Create the streams used for decryption.
-                using (MemoryStream msDecrypt = new MemoryStream(cipher))
-                {
-                    using (CryptoStream csDecrypt = new CryptoStream(msDecrypt, decryptor, CryptoStreamMode.Read))
-                    {
-                        using (StreamReader srDecrypt = new StreamReader(csDecrypt))
-                        {
-
-                            // Read the decrypted bytes from the decrypting stream
-                            // and place them in a string.
-                            plaintext = srDecrypt.ReadToEnd();
-                        }
-                    }
-                }
             }
 
-            return plaintext;
+            Array.Copy(Key, EncryptionkeyBytes, len);
+
+            objrij.Key = EncryptionkeyBytes;
+
+            objrij.IV = EncryptionkeyBytes;
+
+            byte[] TextByte = objrij.CreateDecryptor().TransformFinalBlock(encryptedTextByte, 0, encryptedTextByte.Length);
+
+            return Encoding.UTF8.GetString(TextByte);  //it will return readable string
         }
 
 

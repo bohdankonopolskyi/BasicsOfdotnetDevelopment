@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{8FC77C03-B5A7-41CA-AB03-8C02D01F83C0}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Lab5__behaviouralPatterns PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab5_behaviouralPatterns/Program.cs">
+    <Files>
+      <File FileName="Lab5_behaviouralPatterns/Program.cs" Line="1" Column="57" />
+      <File FileName="Lab5_behaviouralPatterns/Context.cs" Line="27" Column="13" />
+      <File FileName="Lab5_behaviouralPatterns/Flying.cs" Line="1" Column="1" />
+      <File FileName="Lab5_behaviouralPatterns/Group.cs" Line="20" Column="15" />
+      <File FileName="Lab5_behaviouralPatterns/Orc.cs" Line="8" Column="12" />
+      <File FileName="Lab5_behaviouralPatterns/Elf.cs" Line="20" Column="37" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Lab5_behaviouralPatterns" expanded="True">
+            <Node name="Lab5_behaviouralPatterns" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
