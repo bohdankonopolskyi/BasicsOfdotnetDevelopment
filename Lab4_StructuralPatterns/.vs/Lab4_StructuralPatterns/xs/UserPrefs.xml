@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{52430509-7F18-4D50-8A1F-D0E3C96897C6}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Lab4__StructuralPatterns PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab4_StructuralPatterns/Program.cs">
+    <Files>
+      <File FileName="Lab4_StructuralPatterns/Program.cs" Line="8" Column="1" />
+      <File FileName="Lab4_StructuralPatterns/Decorator.cs" Line="17" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Lab4_StructuralPatterns" expanded="True">
+            <Node name="Lab4_StructuralPatterns" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -19,13 +19,13 @@ namespace ORPZ_Lab3_CreationalPatterns
                 Client(creator, teststring);
 
 
-            Console.WriteLine("\n\n\n Generic factory");
-            IEncryptor Encryptor = GenericEncryptorFactory<IEncryptor, AesEncryptor>.Create();
+            //Console.WriteLine("\n\n\n Generic factory");
+            //IEncryptor Encryptor = GenericEncryptorFactory<IEncryptor, AesEncryptor>.Create();
 
-            Client(Encryptor, teststring);
+            //Client(Encryptor, teststring);
 
-            Encryptor = GenericEncryptorFactory<IEncryptor, DesEncryptor>.Create();
-            Client(Encryptor, teststring);
+            //Encryptor = GenericEncryptorFactory<IEncryptor, DesEncryptor>.Create();
+            //Client(Encryptor, teststring);
 
         }
 
@@ -42,13 +42,14 @@ namespace ORPZ_Lab3_CreationalPatterns
             Console.WriteLine($"Decrypted  {decrypthed}\n");
 
         }
-        public static void Client(IEncryptor encryptor, string text)
-        {
-            string encrypted = encryptor.Encrypt(text);
-            Console.WriteLine($"Encryption {encrypted}");
 
-            string decrypthed = encryptor.Decrypt(encrypted);
-            Console.WriteLine($"Decrypted  {decrypthed}\n");
-        }
+        //public static void Client(IEncryptor encryptor, string text)
+        //{
+        //    string encrypted = encryptor.Encrypt(text);
+        //    Console.WriteLine($"Encryption {encrypted}");
+
+        //    string decrypthed = encryptor.Decrypt(encrypted);
+        //    Console.WriteLine($"Decrypted  {decrypthed}\n");
+        //}
     }
 }

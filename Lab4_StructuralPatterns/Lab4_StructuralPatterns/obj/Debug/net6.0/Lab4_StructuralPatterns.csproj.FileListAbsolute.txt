@@ -1,0 +1,15 @@
+/Users/bohdankonopolskyi/projrepos/Lab4_StructuralPatterns/Lab4_StructuralPatterns/bin/Debug/net6.0/Lab4_StructuralPatterns
+/Users/bohdankonopolskyi/projrepos/Lab4_StructuralPatterns/Lab4_StructuralPatterns/bin/Debug/net6.0/Lab4_StructuralPatterns.deps.json
+/Users/bohdankonopolskyi/projrepos/Lab4_StructuralPatterns/Lab4_StructuralPatterns/bin/Debug/net6.0/Lab4_StructuralPatterns.runtimeconfig.json
+/Users/bohdankonopolskyi/projrepos/Lab4_StructuralPatterns/Lab4_StructuralPatterns/bin/Debug/net6.0/Lab4_StructuralPatterns.dll
+/Users/bohdankonopolskyi/projrepos/Lab4_StructuralPatterns/Lab4_StructuralPatterns/bin/Debug/net6.0/Lab4_StructuralPatterns.pdb
+/Users/bohdankonopolskyi/projrepos/Lab4_StructuralPatterns/Lab4_StructuralPatterns/obj/Debug/net6.0/Lab4_StructuralPatterns.csproj.AssemblyReference.cache
+/Users/bohdankonopolskyi/projrepos/Lab4_StructuralPatterns/Lab4_StructuralPatterns/obj/Debug/net6.0/Lab4_StructuralPatterns.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bohdankonopolskyi/projrepos/Lab4_StructuralPatterns/Lab4_StructuralPatterns/obj/Debug/net6.0/Lab4_StructuralPatterns.AssemblyInfoInputs.cache
+/Users/bohdankonopolskyi/projrepos/Lab4_StructuralPatterns/Lab4_StructuralPatterns/obj/Debug/net6.0/Lab4_StructuralPatterns.AssemblyInfo.cs
+/Users/bohdankonopolskyi/projrepos/Lab4_StructuralPatterns/Lab4_StructuralPatterns/obj/Debug/net6.0/Lab4_StructuralPatterns.csproj.CoreCompileInputs.cache
+/Users/bohdankonopolskyi/projrepos/Lab4_StructuralPatterns/Lab4_StructuralPatterns/obj/Debug/net6.0/Lab4_StructuralPatterns.dll
+/Users/bohdankonopolskyi/projrepos/Lab4_StructuralPatterns/Lab4_StructuralPatterns/obj/Debug/net6.0/refint/Lab4_StructuralPatterns.dll
+/Users/bohdankonopolskyi/projrepos/Lab4_StructuralPatterns/Lab4_StructuralPatterns/obj/Debug/net6.0/Lab4_StructuralPatterns.pdb
+/Users/bohdankonopolskyi/projrepos/Lab4_StructuralPatterns/Lab4_StructuralPatterns/obj/Debug/net6.0/Lab4_StructuralPatterns.genruntimeconfig.cache
+/Users/bohdankonopolskyi/projrepos/Lab4_StructuralPatterns/Lab4_StructuralPatterns/obj/Debug/net6.0/ref/Lab4_StructuralPatterns.dll
